@@ -91,7 +91,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 we are able to ensure continuity among all the scripts. By using Ansible, we are able to ensure all machines do the exact same thing
 every time, eliminating as much variability in configuration. 
 
-[install-elk.yml]
+[install-elk.yml]https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Ansible/install-elk.yml
 
 The playbook implements the following tasks:
 - Identify target machines.
@@ -104,7 +104,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `sudo docker ps` after successfully configuring the ELK instance.
 
-[docker ps output]
+![docker ps output](Images/ELK_container_state.png)
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -124,8 +125,8 @@ These Beats allow us to collect the following information from each machine:
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
-[filebeat-playbook]
-[metricbeat-playbook]
+[filebeat-playbook]https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Ansible/filebeat-playbook.yml
+[metricbeat-playbook]https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Ansible/metricbeat-playbook.yml
 
 SSH into the control node and follow the steps below:
 - download and unzip the config file from elastic.co.
@@ -139,7 +140,13 @@ SSH into the control node and follow the steps below:
 - Install filebeat-playbook.yml and metricbeat-playbook.yml and navigate to http://{ELK machine internal IP}:5601/app/kibana
 
 ###Verfication of working Kibana
-[images file]
+[images file]https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Images/Kibana_screen_shot.png
+![Welcome to Kibana](Images/Kibana_screen_shot.png)
+![](Images/Kibana_Filebeat_screen_shot.png)
+![](Images/Kibana_Filebeat_2.png)
+![](Images/Kibana_Metricbeat_screen_shot.png)
+![](Images/Kibana_Metricbeat_2.png)
+
 
 
 The commands below can be used to download the playbook, update the files, and run the playbooks_
