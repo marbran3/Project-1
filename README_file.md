@@ -14,7 +14,7 @@ The YAML scripts were for creating a virtual network with an ELK stack machine; 
 The files in this repository were used to configure the network depicted below.
 
 [network_diagram] https://github.com/marbran3/Project-1/blob/8f1e56f1259b989eab84c009ce9bd944207e61fc/Diagrams/Project_13_Diagram.drawio
-[image]
+[image] https://github.com/marbran3/Project-1/blob/a28767b29ca22d9b8a5d1e245e5257b520127e84/Diagrams/RedTeam_Resource_Group.png
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate 
