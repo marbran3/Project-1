@@ -13,10 +13,10 @@ The YAML scripts were for creating a virtual network with an ELK stack machine; 
 
 The files in this repository were used to configure the network depicted below.
 
-[Network diagram]https://github.com/marbran3/Project-1/blob/e7302369218a59b90925c5cbb185fd148790dbdb/Diagrams/Project_12_Diagram.drawio.png
+[Network diagram] https://github.com/marbran3/Project-1/blob/e7302369218a59b90925c5cbb185fd148790dbdb/Diagrams/Project_12_Diagram.drawio.png
 ![network_diagram](Diagrams/Project_12_Diagram.drawio.png)
 
-[Resource Group Visualization]https://github.com/marbran3/Project-1/blob/51e900d81d25c760c216a26877bc42f55a037cce/Diagrams/Project_13_Diagram.drawio.png
+[Resource Group Visualization] https://github.com/marbran3/Project-1/blob/51e900d81d25c760c216a26877bc42f55a037cce/Diagrams/Project_13_Diagram.drawio.png
 ![Resource Group Visualization](Diagrams/RedTeam_Resource_Group.png)
 
 
@@ -24,7 +24,7 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate 
 the entire deployment pictured above. Alternatively, select playbooks may be used to install only certain pieces of it, such as Filebeat, see the filebeat-playbook.yml
 
-[Ansible Directory]https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Ansible/
+[Ansible Directory] https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Ansible/
 - Ansible configuration
 - Ansible ELK installation and VM Configuration
 - Ansible Filebeat configuration
@@ -91,7 +91,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 we are able to ensure continuity among all the scripts. By using Ansible, we are able to ensure all machines do the exact same thing
 every time, eliminating as much variability in configuration. 
 
-[install-elk.yml]https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Ansible/install-elk.yml
+[install-elk.yml] https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Ansible/install-elk.yml
 
 The playbook implements the following tasks:
 - Identify target machines.
@@ -125,8 +125,8 @@ These Beats allow us to collect the following information from each machine:
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
-[filebeat-playbook]https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Ansible/filebeat-playbook.yml
-[metricbeat-playbook]https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Ansible/metricbeat-playbook.yml
+[filebeat-playbook] https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Ansible/filebeat-playbook.yml
+[metricbeat-playbook] https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Ansible/metricbeat-playbook.yml
 
 SSH into the control node and follow the steps below:
 - download and unzip the config file from elastic.co.
@@ -140,7 +140,7 @@ SSH into the control node and follow the steps below:
 - Install filebeat-playbook.yml and metricbeat-playbook.yml and navigate to http://{ELK machine internal IP}:5601/app/kibana
 
 ###Verfication of working Kibana
-[images file]https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Images/Kibana_screen_shot.png
+[images file] https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Images/Kibana_screen_shot.png
 ![Welcome to Kibana](Images/Kibana_screen_shot.png)
 ![](Images/Kibana_Filebeat_screen_shot.png)
 ![](Images/Kibana_Filebeat_2.png)
