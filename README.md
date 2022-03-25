@@ -16,7 +16,7 @@ The files in this repository were used to configure the network depicted below.
 [Network diagram]https://github.com/marbran3/Project-1/blob/e7302369218a59b90925c5cbb185fd148790dbdb/Diagrams/Project_12_Diagram.drawio.png
 ![network_diagram](Diagrams/Project_12_Diagram.drawio.png)
 
-[Resource Group Visualization] 
+[Resource Group Visualization]https://github.com/marbran3/Project-1/blob/51e900d81d25c760c216a26877bc42f55a037cce/Diagrams/Project_13_Diagram.drawio.png
 ![Resource Group Visualization](Diagrams/RedTeam_Resource_Group.png)
 
 
