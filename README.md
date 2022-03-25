@@ -24,7 +24,7 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate 
 the entire deployment pictured above. Alternatively, select playbooks may be used to install only certain pieces of it, such as Filebeat, see the filebeat-playbook.yml
 
-[Ansible Directory]
+[Ansible Directory]https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Ansible/
 - Ansible configuration
 - Ansible ELK installation and VM Configuration
 - Ansible Filebeat configuration
