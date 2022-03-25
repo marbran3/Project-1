@@ -13,7 +13,7 @@ The YAML scripts were for creating a virtual network with an ELK stack machine; 
 
 The files in this repository were used to configure the network depicted below.
 
-[network_diagram] https://github.com/marbran3/Project-1/blob/8f1e56f1259b989eab84c009ce9bd944207e61fc/Diagrams/Project_13_Diagram.drawio
+![network_diagram](Diagrams/Project_12_Diagram.drawio.png)
 
 ![Resource Group Visualization](Diagrams/RedTeam_Resource_Group.png)
 
