@@ -48,8 +48,9 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly available, in addition to restricting external access to the network. 
 A load balancer allows the ability to redirect traffic so no one machine/server is overburdened. This helps improve service availability
 and prevent downtime by reducing risk of DDoS attacks. 
+
 Using a jump box protects the virtual machines from external access through the internet, thereby reducing the risk of attack. You are able
-to access and manage devices in a more secure zone. 
+to access and manage devices in a more secure zone. Setting up Docker on the jumpbox allows for continuity among all new machines setups. 
 
 Integrating an ELK server allows administrators to easily monitor the VM's running DVWA for changes to the logs and system traffic. Filebeat monitors and 
 collects log files and fowards them to Elasticsearch for indexing, making them easier to monitor. Metricbeat records metrics and statistics
