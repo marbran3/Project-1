@@ -14,10 +14,10 @@ The YAML scripts were for creating a virtual network with an ELK stack machine; 
 The files in this repository were used to configure the network depicted below.
 
 [Network diagram] https://github.com/marbran3/Project-1/blob/e7302369218a59b90925c5cbb185fd148790dbdb/Diagrams/Project_13_Diagram.drawio.png
-![network_diagram](Diagrams/Project_13_Diagram.drawio.png)
+![network_diagram](https://github.com/marbran3/Project-1/blob/e7302369218a59b90925c5cbb185fd148790dbdb/Diagrams/Project_13_Diagram.drawio.png)
 
 [Resource Group Visualization] https://github.com/marbran3/Virtual-Network-Project/blob/3bff8f7e596c1fa31e2c71dc2ecf9e377ac8b0a0/Diagrams/RedTeam_Resource_Group.png
-![Resource Group Visualization](Diagrams/RedTeam_Resource_Group.png)
+![Resource Group Visualization](https://github.com/marbran3/Virtual-Network-Project/blob/3bff8f7e596c1fa31e2c71dc2ecf9e377ac8b0a0/Diagrams/RedTeam_Resource_Group.png)
 
 
 
@@ -105,7 +105,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `sudo docker ps` after successfully configuring the ELK instance.
 
-![docker ps output](Images/ELK_container_state.png)
+![docker ps output](https://github.com/marbran3/Virtual-Network-Project/blob/76a6a106f51a88f909752e75e59d8447eea04314/Images/ELK_container_state.png)
 
 
 ### Target Machines & Beats
@@ -142,12 +142,12 @@ SSH into the control node and follow the steps below:
 - Install filebeat-playbook.yml and metricbeat-playbook.yml and navigate to http://{ELK machine internal IP}:5601/app/kibana
 
 ###Verfication of working Kibana
-[images file] https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Images/Kibana_screen_shot.png
-![Welcome to Kibana](Images/Kibana_screen_shot.png)
-![](Images/Kibana_Filebeat_screen_shot.png)
-![](Images/Kibana_Filebeat_2.png)
-![](Images/Kibana_Metricbeat_screen_shot.png)
-![](Images/Kibana_Metricbeat_2.png)
+[images file] https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Images/
+![Welcome to Kibana](https://github.com/marbran3/Project-1/blob/47311df3f915d667bd70b634f53bb2043e3ac0c6/Images/Kibana_screen_shot.png)
+![](https://github.com/marbran3/Virtual-Network-Project/blob/76a6a106f51a88f909752e75e59d8447eea04314/Images/Kibana_Filebeat_screen_shot.png)
+![](https://github.com/marbran3/Virtual-Network-Project/blob/76a6a106f51a88f909752e75e59d8447eea04314/Images/Kibana_Filebeat_2.png)
+![](https://github.com/marbran3/Virtual-Network-Project/blob/76a6a106f51a88f909752e75e59d8447eea04314/Images/Kibana_Metricbeat_screen_shot.png)
+![](https://github.com/marbran3/Virtual-Network-Project/blob/76a6a106f51a88f909752e75e59d8447eea04314/Images/Kibana_Metricbeat_2.png)
 
 
 
